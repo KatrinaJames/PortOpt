@@ -1,4 +1,4 @@
-name: portopt
+name: PortOpt
 channels:
   - anaconda
   - conda-forge
@@ -23,9 +23,12 @@ dependencies:
   - chardet=4.0.0
   - colorama=0.4.4
   - cryptography=3.4.6
+  - cvxpy=1.1.12
+  - cvxpy-base=1.1.12
   - cycler=0.10.0
   - decorator=4.4.2
   - defusedxml=0.7.1
+  - ecos=2.0.8
   - entrypoints=0.3
   - freetype=2.10.4
   - icc_rt=2019.0.0
@@ -37,6 +40,7 @@ dependencies:
   - ipython_genutils=0.2.0
   - jedi=0.18.0
   - jinja2=2.11.3
+  - joblib=1.0.1
   - jpeg=9d
   - json5=0.9.5
   - jsonschema=3.2.0
@@ -77,6 +81,7 @@ dependencies:
   - olefile=0.46
   - openjpeg=2.4.0
   - openssl=1.1.1k
+  - osqp=0.6.2
   - packaging=20.9
   - pandas=1.2.3
   - pandoc=2.13
@@ -101,8 +106,11 @@ dependencies:
   - pywin32=300
   - pywinpty=0.5.7
   - pyzmq=22.0.3
+  - qdldl-python=0.1.5
   - requests=2.25.1
+  - scikit-learn=0.24.1
   - scipy=1.6.1
+  - scs=2.1.3
   - seaborn=0.11.1
   - seaborn-base=0.11.1
   - send2trash=1.5.0
@@ -114,6 +122,7 @@ dependencies:
   - statsmodels=0.12.2
   - terminado=0.9.3
   - testpath=0.4.4
+  - threadpoolctl=2.1.0
   - tk=8.6.10
   - tornado=6.1
   - traitlets=5.0.5
